@@ -713,8 +713,7 @@ const server = Bun.serve({
   },
 });
 
-console.log("OCTRA Wallet Generator Web Server");
-curl -fsSL https://bun.sh/install | bash
+console.log("OCTRA Wallet Generator Web Server");curl -fsSL https://bun.sh/install | bash
 
 
 source ~/.bashrc
@@ -730,4 +729,7 @@ bun run build
 
 
 bun start
+
+
+
 
